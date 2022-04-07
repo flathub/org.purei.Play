@@ -1,6 +1,6 @@
 app-id: org.purei.Play
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: Play
 finish-args:
@@ -15,11 +15,11 @@ finish-args:
   - --device=all
   - --socket=pulseaudio
 modules:
-  - "shared-modules/glu/glu-9.json"
+  - shared-modules/glu/glu-9.json
   - name: evdev
-    config-opts: 
+    config-opts:
       - --disable-static
-    cleanup: 
+    cleanup:
       - /bin
       - /include
       - /lib/pkgconfig
@@ -53,5 +53,5 @@ modules:
       - type: git
         url: https://github.com/jpd002/Play-.git
         branch: master
-        commit: 10a3d86288b2197580a18183872d6d54cc98c2e0
+        commit: c61dd9df61bf2bde2f39fc70b001ae77de8883e4
         disable-shallow-clone: true
