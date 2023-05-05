@@ -52,5 +52,5 @@ modules:
       - type: git
         url: https://github.com/jpd002/Play-.git
         branch: master
-        commit: 8f2752b68d2e5764db286fc79a31cecb385bbd57
+        commit: aee69ac97c5a08a5f7a763024399717be451fea4
         disable-shallow-clone: true
