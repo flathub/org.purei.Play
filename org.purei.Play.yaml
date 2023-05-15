@@ -26,8 +26,8 @@ modules:
       - /share/man
     sources:
       - type: archive
-        url: https://www.freedesktop.org/software/libevdev/libevdev-1.13.0.tar.xz
-        sha256: 9edf2006cc86a5055279647c38ec923d11a821ee4dc2c3033e8d20e8ee237cd9
+        url: https://www.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz
+        sha256: 06a77bf2ac5c993305882bc1641017f5bec1592d6d1b64787bad492ab34f2f36
         x-checker-data:
           type: anitya
           project-id: 20540
@@ -52,5 +52,5 @@ modules:
       - type: git
         url: https://github.com/jpd002/Play-.git
         branch: master
-        commit: 2f737651fb4e6f11ee709d77c49a9d812af8f9ff
+        commit: 9bcbe1f699aa882d85edf7687cb695136c4096d2
         disable-shallow-clone: true
