@@ -51,6 +51,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/jpd002/Play-.git
-        tag: 0.68
-        commit: 69ce62f6fb17aee73e43f7e79db6e7a00ef56c68
+        tag: 0.69
+        commit: ae20e1eef679709193675404581234b864aac41f
         disable-shallow-clone: true
